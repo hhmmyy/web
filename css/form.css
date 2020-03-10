@@ -1,0 +1,65 @@
+@import url(css/sanitize.css);
+
+.base {
+  border-top: 6px solid #0489B1;
+  width: 400px;
+  background-color: #fff;
+  margin: 50px auto;
+  padding: 20px 30px 30px 30px;
+  box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+body {
+  background-color: #CEECF5;
+}
+h1 {
+  font-size: 23px;
+  margin-bottom: 20px;
+}
+label {
+  display: block;
+  margin-bottom: .5em;
+}
+p {
+  color: #a4a4a4;
+  font-size: .3em;
+}
+.hissu {
+  font-size: .2em;
+  color: red;
+}
+.textarea{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #D8D8D8;
+  width: 50%;
+  padding: 8px;
+  margin-bottom: 40px;
+}
+.textarea2{
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  border-bottom: 1px solid #D8D8D8;
+  width: 95%;
+  padding: 8px;
+  margin-bottom: 40px;
+}
+.radiobutton {
+  font-size: .7em;
+  line-height: 17px;		/* ボタンのサイズに合わせる */
+  cursor:	pointer;
+  position: relative;
+  margin-bottom: 40px;
+}
+button {
+  background-color: #0080FF;
+  color: #fff;
+  font-size: .7em;
+  font-weight: bold;
+  width: 70px;
+  padding: 5px;
+  border: 0px;
+  border-radius: 3px;
+  margin-bottom: 18px;
+}

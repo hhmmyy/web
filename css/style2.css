@@ -11,7 +11,7 @@
   position: relative;
 }
 .content:after {
-  background: repeating-linear-gradient(-45deg, #cc7078, #cc7078 1px, #F6CED8 0, #F6CED8 4px); /* ストライプの色 */
+  background: repeating-linear-gradient(-45deg, #848484, #848484 1px, #F6CED8 0, #F6CED8 4px); /* ストライプの色 */
   content: '';
   position: absolute;
   top: 6px;
@@ -63,25 +63,27 @@ h1 {
 }
 label {
   display: block;
+  margin-bottom: 5px;
 }
 .gentei {
   display: inline-block;
-  width: 90px;
-  height: 90px;
+  font-size: 1.2em;
+  width: 100px;
+  height: 100px;
   font-weight: bold;
-  line-height: 90px;
+  line-height: 100px;
   color: white;
   text-align: center;
   background-color: #FE2E64;
   border-radius: 50%;
   position: absolute;
-  top: -15px;
-  left: -15px;
+  top: -17px;
+  left: -17px;
 }
 .hissu {
   display: inline-block;
   padding: 0.4em 0.8em;
-  font-size: 0.8em;
+  font-size: 0.5em;
   color: #FF0040;
   text-decoration: none;
   user-select: none;

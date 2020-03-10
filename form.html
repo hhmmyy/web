@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/form.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>お申し込みフォーム</title>
+  </head>
+
+  <body>
+    <div class="base">
+      <h1>お申し込みフォーム</h1>
+      <span class="hissu">＊必須</span>
+      <br>
+      <br>
+      <div class="form">
+      <label for="onamae">お名前<span class="hissu">＊</span></label>
+      <input class="textarea" id="onamae" type="text" name="onamae" placeholder="回答を入力">
+      </div>
+    <div class="form">
+      <label for="mail">メールアドレス<span class="hissu">＊</span></label>
+      <input class="textarea" id="mail" type="email" name="mail" placeholder="回答を入力">
+    </div>
+      <label>お問い合わせ項目<span class="hissu">＊</span></label>
+    <div class="radiobutton">
+      <label><input type="radio" name="q1" value="コンサルティング"> コンサルティング</label>
+      <label><input type="radio" name="q1" value="システム開発"> システム開発</label>
+      <label><input type="radio" name="q1" value="セミナー・研修"> セミナー・研修</label>
+    </div>
+    <div class="form">
+      <label for="naiyou">お問い合わせ内容<span class="hissu">＊</span></label>
+      <input class="textarea2" id="naiyou" type="text" name="naiyou" placeholder="回答を入力">
+    </div>
+      <button type="submit" name="button">送信</button>
+      <p>Googleフォームでパスワードを送信しないでください。</p>
+    </div>
+  </body>
+</html>
